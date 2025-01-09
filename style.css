@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 5120px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* Navbar Styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: indigo;
+    font-family: "Exo 2", serif;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* Home Section Styling */
+.home{
+    display: flex;
+    background: url("images/banner.png") center;
+    height: 100vh;
+    color: whitesmoke;
+    min-height: 500px;
+    font-family: "Sofia Sans", serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 27px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: blueviolet;
+}
