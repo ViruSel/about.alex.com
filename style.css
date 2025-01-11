@@ -324,17 +324,33 @@ section{
 }
 
 @media (max-width: 469px){
-    .max-width{
-        padding: 0 15px;
-    }
     .home .home-content .text-1{
-        font-size: 20px;
+        font-size: 22px;
     }
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 48px;
     }
     .home .home-content .text-3{
-        font-size: 21px;
+        font-size: 25px;
     }
+    .home .home-content a{
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+    .about .about-content .left img{
+        height: 320px;
+        width: 320px;
+    }
+    .about .about-content .right .text{
+        font-size: 23px;
+    }
+    .about .about-content .right p{
+        font-size: 18px;
+    }
+    .about .about-content .right a{
+        font-size: 18px;
+        padding: 8px 25px;
+    }
+    
     
 }
