@@ -91,7 +91,7 @@
 }
 
 .about .about-content .right a:hover{
-    color: indigo;
+    color: whitesmoke;
     background: none;
 }
 
@@ -118,10 +118,6 @@
 }
 
 @media (max-width: 469px){
-    .about .about-content .left img{
-        height: 275px;
-        width: 2750px;
-    }
     .about .about-content .right .text{
         font-size: 23px;
     }

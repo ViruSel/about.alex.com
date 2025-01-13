@@ -78,12 +78,6 @@ section{
 }
 
 /* Mobile adaptation */
-@media (max-width: 991px){
-    .max-width{
-        padding: 0 50px;
-    }
-}
-
 @media (max-width: 947px){
     .menu-btn{
         display: block;
@@ -115,9 +109,9 @@ section{
         margin: 25px, 0;
         font-size: 25px;
     }
-    /* .max-width{
-        max-width: 800px;
-    } */
+    .max-width{
+        padding: 0 50px;
+    }
 }
 
 @media (max-width: 690px){
